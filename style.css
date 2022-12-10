@@ -1,0 +1,152 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    /* font-size: 10px; */
+  
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    overflow-x: hidden;
+  
+    /* Does NOT work on Safari */
+    /* scroll-behavior: smooth; */
+  }
+  
+  body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+  
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
+  }
+
+  .header {
+    height: 30px;
+    width: 100%;
+    background-color: aquamarine;
+  }
+
+  .header .h-icon {
+   height: 3rem;
+   width: 3rem;
+   margin-left: 1rem;
+   stroke: darkolivegreen;
+  }
+
+  .ticket {
+    background-color: darkseagreen;
+    height: 230px;
+    width: 200px;
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+
+  .main-part {
+    background-color: aqua;
+  }
+
+  .heading {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+  }
+
+  .t-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: yellow;
+    height: 15px;
+    width: 70px;
+  }
+
+  .t-order .icon {
+    height:  1.7rem;
+    width: 1.7rem;
+  }
+
+  .t-order h4 {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .h-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: yellowgreen;
+    height: 15px;
+    width: 90px;
+  }
+
+  .h-time .icon {
+    height:  1.7rem;
+    width: 1.7rem;
+    margin-right: 5px;
+  }
+
+  .h-time time {
+    font-size: 13px;
+    margin-left: 5px;
+  }
+
+  .h-time .line {
+    border-left: 1px solid black;
+    height: 16px;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .starter{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .food-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(85, 85, 85, 0.397);
+  }
+
+  .extra {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .starter-container {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .food-itemm {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(85, 85, 85, 0.397);
+  }
+
+  .main-container {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .extraa {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
